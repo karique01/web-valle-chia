@@ -1,7 +1,8 @@
 name: Deploy de la pagina
 on: 
-  branches:
-    - main
+  push:
+    branches:
+      - main
 jobs:
   deploy-page:
     runs-on: ubuntu-latest
